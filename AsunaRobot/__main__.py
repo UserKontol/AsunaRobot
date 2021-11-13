@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello` [🧚‍♀️](https://telegra.ph/file/7274507d4da6ff6f3785d.mp4) `My name is` *Asuna*
+`Hello` [💖](https://telegra.ph/file/7274507d4da6ff6f3785d.mp4) `My name is` *Asuna*
 `I am powerful  group management bot.
 Build by The Ghost Hunter for Your Telegram Group , I specialize in managing Entertainment type groups.
 You can find my list of available commands with! Hit` *🔰Commands*   
@@ -87,36 +87,36 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="❗ ABOUT", callback_data="asuna_"),
-        InlineKeyboardButton(text="🔰 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="❗ ABOUT ME", callback_data="asuna_"),
+        InlineKeyboardButton(text="🔰 COMMANDS HELP", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="🤴 OWNER", url="https://telegram.dog/The_Ghost_Hunter"
+            text="🤴 OWNER", url="https://t.me/erosei_1"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="📺 Star Wolrd Entertainment",
-            url="https://telegram.dog/fire_world_entertainment",
+            text="📺 Anime Lovers",
+            url="https://t.me/AnimeLovers_group",
         ),
     ],
     [
-        InlineKeyboardButton(text="🗨️ Logis", url="https://t.me/AsunaLogUpdate"),
+        InlineKeyboardButton(text="🗨️ UPDATES", url="https://t.me/projectsupdates"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://telegram.dog/AsunaRobotSupport"
+            text="👥 SUPPORT", url="https://telegram.dog/Alvin_Image_Editor_Group"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="💾 Source Code", url="https://github.com/HuntingBots/AsunaRobot"
+            text="💾 Source Code", url="https://t.me/erosei_1"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Asuna ⚙️]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
+`Hi.. I'm` [Nino ⚙️]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
