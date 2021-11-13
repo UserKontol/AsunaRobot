@@ -110,7 +110,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💾 Source Code", url="https://t.me/erosei_1"
+            text="💾 Credit", url="https://t.me/erosei_1"
         ),
     ],
 ]
@@ -371,16 +371,16 @@ def asuna_about_callback(update, context):
     query = update.callback_query
     if query.data == "asuna_":
         query.message.edit_text(
-            text=""" ❗ I'm *Asuna*, a powerful group management bot built to help you manage your group easily.
+            text=""" ❗ I'm *Nino*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/HuntingBots/AsunaRobot).
-                 \n\nIf you have any question about *Asuna*, let us know at .""",
+                 \n\nino's licensed under the GNU General Public License v3.0_
+                 \nHere is the [💾Repository](https://t.me/erosei_1).
+                 \n\nIf you have any question about *Nino*, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -401,8 +401,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..👸 I'm *Asuna*
-                 \nHere is the [Source Code](https://github.com/HuntingBots/AsunaRobot) .""",
+            text=""" Hi..👸 I'm *Nino*
+                 \nHere is the [Credit](https://t.me/erosei_1) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -692,7 +692,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                "[Yes I'm alive now!](https://telegra.ph/file/fefbe49175499b0646495.mp4)",
+                "Oii Baka!! I'm alive now[!](https://telegra.ph/file/fefbe49175499b0646495.mp4)",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
