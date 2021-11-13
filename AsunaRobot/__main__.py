@@ -74,16 +74,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello` [💖](https://telegra.ph/file/7274507d4da6ff6f3785d.mp4) `My name is` *Asuna*
-`I am powerful  group management bot.
-Build by The Ghost Hunter for Your Telegram Group , I specialize in managing Entertainment type groups.
+*Hello* [💖](https://telegra.ph/file/7274507d4da6ff6f3785d.mp4) *My name is Nakano Nino*
+*Im powerful  group management bot.*
+
+*Build by [Anko Loli](https://t.me/erosei_1) for Your Telegram Group, I specialize in managing Entertainment type groups.*
 You can find my list of available commands with! Hit` *🔰Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️", url="t.me/My_Asuna_Robot?startgroup=true"
+            text="➕️ ADD ME TO YOUR GROUP ➕️", url="t.me/ninopro_bot?startgroup=true"
         ),
     ],
     [
@@ -123,7 +124,7 @@ HELP_STRINGS = """
 ASUNA_IMG = "https://telegra.ph/file/7e61fe06a9c02747249b4.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @The_Ghost_Hunter\
+ You can support the project via [Paypal](#) or by contacting @erosei_1\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
