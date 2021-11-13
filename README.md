@@ -1,4 +1,4 @@
-## 🌟[AsunaRobot](https://telegram.dog/My_Asuna_Robot)🌟
+## 🌟[Nakano Nino](https://telegram.dog/ninopro_bot)🌟
 ### Telegram Group Manager Bot Written In Python Using Telethon+Pyrogram.
 
 <p align="center">
@@ -33,7 +33,7 @@
 ### Easiest Way To Deploy On Heroku 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HuntingBots/AsunaRobot/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sophiashirashaki/AsunaRobot)
 
 ```
 
